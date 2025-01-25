@@ -93,14 +93,14 @@ const Navbar = () => {
         <ul className=" flex flex-wrap md:hidden gap-5">
 
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300  hover:bg-blue-500  hover:opacity-100">
-                <a href=""><BsLinkedin/></a>
+                <a href="https://www.linkedin.com/in/ismail-hansal-a17826267/" target="blank"><BsLinkedin/></a>
             </li>
 
             <li className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 hover:bg-purple-500 text-xl">
-            <a href=""><BsInstagram/></a>
+            <a href="https://www.instagram.com/samael_onela/" target="blank"><BsInstagram/></a>
             </li>
             <li className="cursor-pointer opacity-70 transition-all duration-300  hover:opacity-100  text-xl">
-            <a href=""><BsGithub/></a>
+            <a href="https://github.com/ismailhansal" target="blank"><BsGithub/></a>
             </li>
 
 
