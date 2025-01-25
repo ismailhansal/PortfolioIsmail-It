@@ -25,7 +25,7 @@ const Tech = () => {
 
 
   return (
-    <div id="tech" className="w-full min-h-[70vh] flex flex-col items-center justify-center gap-16 text-4xl md:text-6xl ">
+    <div id="tech" className="w-full min-h-[70vh] flex flex-col items-center justify-center gap-16 text-4xl md:text-6xl -z-10">
 
 
 

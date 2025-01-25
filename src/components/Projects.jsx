@@ -92,17 +92,17 @@ const ProjectCard=({project})=>{
   return (
 
     <ScrollReveal>
-    <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-      <img src={project.image} alt="" className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]" />
+    <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24 -z-10 ">
+      <img src={project.image} alt="" className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px] -z-10" />
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 -z-10">
 
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 -z-10">
 
-        <div className="text-xl font-semibold">{project.title}</div>
-        <div className="text-gray-400">{project.description}</div>
+        <div className="text-xl font-semibold  -z-10">{project.title}</div>
+        <div className="text-gray-400 -z-10">{project.description}</div>
 
-        <div className="flex flex-wrap gap-5">
+        <div className="flex flex-wrap gap-5 -z-10">
           {
             project.technologies.map((tech, index) =>
 
