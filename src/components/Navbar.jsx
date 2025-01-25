@@ -80,10 +80,10 @@ const Navbar = () => {
 
 
         <ul className=" flex flex-col md:hidden gap-8">
-            <a href="/Home" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Home</li></a>
-            <a href="/Tech" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Tech</li></a>
-            <a href="/Projects" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Projects</li></a>
-            <a href="/Contact" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Contact</li></a>
+            <a href="#home" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Home</li></a>
+            <a href="#tech" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Tech</li></a>
+            <a href="#projects" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Projects</li></a>
+            <a href="#contact" className="opacity-70 transition-all duration-300 hover:opacity-100 "><li>Contact</li></a>
 
             
 
