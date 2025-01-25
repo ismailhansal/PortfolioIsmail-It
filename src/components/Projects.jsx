@@ -1,10 +1,7 @@
-import { span } from "motion/react-client"
-import gym from "/public/gym.png"
-import gymlogin from "/public/gymlogin.png"
-
-import optimum from "/public/optimum.png"
-import speedex from "/public/speedex.png"
-import trackify from "/public/trackify.png"
+import gymlogin from "../assets/gymlogin.png"
+import optimum from "../assets/optimum.png"
+import speedex from "../assets/speedex.png"
+import trackify from "../assets/trackify.png"
 import { motion } from "motion/react"
 
 
@@ -155,7 +152,7 @@ const Projects = () => {
 
 
 
-    <div  className="w-full min-h-screen flex flex-col justify-center items-center gap-16 p-4
+    <div id="projects" className="w-full min-h-screen flex flex-col justify-center items-center gap-16 p-4
      ">
 
       <ScrollReveal>

@@ -1,5 +1,5 @@
 
-import image2 from "/public/Samael3.jpg"
+import image2 from "../assets/Samael3.jpg"
 import { motion } from "motion/react"
 
 const Hero = () => {
