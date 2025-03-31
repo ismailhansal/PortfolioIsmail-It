@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IoIosHelpCircleOutline } from 'react-icons/io'; // Icône plus fine
-import '../'
+import ''
 
 const PopupButton = () => {
   const [isOpen, setIsOpen] = useState(false);
