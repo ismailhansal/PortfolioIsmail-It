@@ -1,0 +1,96 @@
+/* popupButton.css */
+
+/* Conteneur du bouton */
+.popup-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Bouton rond avec effet flottant */
+  .popup-button {
+    background: rgba(0, 0, 0, 0.6); /* Noir transparent */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    backdrop-filter: blur(8px); /* Effet verre */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+  
+  .popup-button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Animation de flottement */
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Contenu du pop-up */
+  .popup-content {
+    background: rgba(0, 0, 0, 0.4); /* Noir transparent */
+    backdrop-filter: blur(10px); /* Effet verre */
+    padding: 12px 16px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    max-width: 180px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+  }
+  
+  .popup-content p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300; /* Texte plus fin */
+    margin: 0;
+  }
+  
+  .popup-content a {
+    display: block;
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 300; /* Texte plus fin */
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .popup-content a:hover {
+    opacity: 1;
+  }
+  
+  /* Animation fade-in */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
