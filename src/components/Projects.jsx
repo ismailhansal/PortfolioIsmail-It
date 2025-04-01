@@ -10,7 +10,7 @@ const projectsData = [
     image : gymlogin,
     title :"Gym Manager",
     description :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula risus in turpis cursus, sed euismod velit vulputate. Fusce dictum mauris a neque sollicitudin, non iaculis nisl",
-    technologies:["HTML","CSS","Javascript","Bootstrap", "C#", "Asp.NET CORE"],
+    technologies:["HTML","CSS","Javascript","Bootstrap", "C#", "Asp.NET CORE", "SQL SERVER"],
   },
 
 
@@ -19,7 +19,7 @@ const projectsData = [
     image : speedex,
     title :"Speedex-Fleet Management System",
     description :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula risus in turpis cursus, sed euismod velit vulputate. Fusce dictum mauris a neque sollicitudin, non iaculis nisl ",
-    technologies:["PHP","HTML","CSS","Javascript","Bootstrap", "MapBoxApi"],
+    technologies:["PHP","HTML","CSS","Javascript","Bootstrap", "MapBoxApi", "Mysql"],
   },
 
 

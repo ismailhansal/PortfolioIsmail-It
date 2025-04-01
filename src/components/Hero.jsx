@@ -1,5 +1,5 @@
 
-import image2 from "../assets/samael3.jpg"
+import image2 from "../assets/samael3.webp"
 import { motion } from "motion/react"
 
 const Hero = () => {
@@ -38,7 +38,7 @@ const Hero = () => {
 
         <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent opacity-80 text-xl font-light  md:text-2xl -z-10"> FullStack Developer       </h3>
 
-        <p className="text-wrap text-sm font-light text-gray-400 md:text-base">I’m a Fullstack Developer with expertise in building end-to-end web applications. Skilled in React, Node.js, and MongoDB, I create seamless user interfaces and handle backend logic, ensuring high performance and scalability</p>
+        <p className="text-wrap text-sm font-light text-gray-400 md:text-base">I’m a Fullstack Developer with expertise in building end-to-end web applications. Skilled in Java, Spring Boot, React, Python, Django, and various databases including MongoDB, MySQL, PostgreSQL, and SQLite, I create seamless user interfaces and handle backend logic, ensuring high performance, scalability, and robustness.</p>
 
 
 

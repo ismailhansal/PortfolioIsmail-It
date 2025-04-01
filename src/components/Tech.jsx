@@ -2,6 +2,7 @@ import { BiLogoDjango, BiLogoDocker, BiLogoJavascript, BiLogoNodejs, BiLogoPostg
 
 
 import { motion } from "motion/react"
+import PythonLogo from "./PythonLogo"
 
 
 
@@ -44,6 +45,17 @@ const Tech = () => {
       className="text-4xl font-light text-white md:text-6xl">Technologies</motion.h1>
 
       <div className="flex flex-wrap items-center justify-center  gap-10 p-5">
+
+
+      
+
+
+
+      
+
+
+
+
 
         <motion.div
 

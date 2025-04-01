@@ -24,7 +24,15 @@ const Contact = () => {
               
       
       
-      className="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ad!</p>
+      className="text-gray-400">Open to new opportunities! Let’s collaborate and create something great!
+
+      </p>
+
+
+
+
+
+      <div className="flex gap-4">
       <div
       initial={{opacity:0, y:50}}
       whileInView={{opacity:1, y:0}}
@@ -36,6 +44,21 @@ const Contact = () => {
 
 
 
+
+
+<div
+      initial={{opacity:0, y:50}}
+      whileInView={{opacity:1, y:0}}
+      transition={{duration:0.8 ,delay:0.2}}
+      
+      
+      
+      className="bg-black px-4 py-3 rounded-md shadow-xl shadow-violet-900 border-blue-800 border hover:shadow-violet-800 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl font-medium "><a href="CV HANSAL ISMAIL.pdf" download="Ismail_Hansal_CV.pdf">Download CV</a>
+      
+
+      </div>
+
+</div>
 
     </div>
 
