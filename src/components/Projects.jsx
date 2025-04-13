@@ -2,14 +2,26 @@ import gymlogin from "../assets/gymlogin.png"
 import optimum from "../assets/optimum.png"
 import speedex from "../assets/speedex.png"
 import trackify from "../assets/trackify.png"
+import homemade from "../assets/homemade.png"
 import { motion } from "motion/react"
 
 
 const projectsData = [
+
+
+  {
+    image : homemade,
+    title :"HomeMade",
+    description :"A web and mobile application that connects independent home cooks with customers looking for homemade meals. The platform features order management, secure payment, real-time geolocation, user reviews, and intuitive interfaces for both vendors and clients.",
+    technologies:["Java","SpringBoot","PostgreSQL","Tailwindcss", "RestApi", "Google maps API", "Firebase", "React native", "Redux"],
+  },
+
+
+
   {
     image : gymlogin,
     title :"Gym Manager",
-    description :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula risus in turpis cursus, sed euismod velit vulputate. Fusce dictum mauris a neque sollicitudin, non iaculis nisl",
+    description :"GymManager is a full-featured web application built to simplify the day-to-day management of fitness centers. It allows administrators to handle member subscriptions, equipment tracking, training programs, coach assignments, class scheduling, and user roles. Designed with usability and efficiency in mind, it provides a smooth experience for both staff and members.",
     technologies:["HTML","CSS","Javascript","Bootstrap", "C#", "Asp.NET CORE", "SQL SERVER"],
   },
 
@@ -18,7 +30,7 @@ const projectsData = [
   {
     image : speedex,
     title :"Speedex-Fleet Management System",
-    description :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula risus in turpis cursus, sed euismod velit vulputate. Fusce dictum mauris a neque sollicitudin, non iaculis nisl ",
+    description :"A web-based application designed to manage vehicle fleets in real time. It includes GPS tracking via Mapbox, maintenance scheduling, alert systems, and optimized route planning, tailored to the logistical needs of SMEs. ",
     technologies:["PHP","HTML","CSS","Javascript","Bootstrap", "MapBoxApi", "Mysql"],
   },
 
@@ -26,7 +38,7 @@ const projectsData = [
   {
     image : trackify,
     title :"Trackify-Fund Management Application ",
-    description :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula risus in turpis cursus, sed euismod velit vulputate. Fusce dictum mauris a neque sollicitudin, non iaculis nisl ",
+    description :"Developed during an AIESEC Hackathon, Trackify is a financial management platform tailored for small businesses. It integrates AI to analyze financial data and provides strategic recommendations for better fund allocation and financial planning. ",
     technologies:["Nextjs","React","Firebase","Tailwindcss","GeminiLlm"],
   },
 
@@ -35,7 +47,7 @@ const projectsData = [
   {
     image : optimum,
     title :"Optimum-Project Team Composition and Optimization Application",
-    description :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula risus in turpis cursus, sed euismod velit vulputate. Fusce dictum mauris a neque sollicitudin, non iaculis nisl ",
+    description :"A platform that matches project teams based on their technical skills and soft skills. The goal is to optimize team composition for greater efficiency and alignment with project requirements.",
     technologies:["Django","SQLite","HTML","CSS","Javascript"],
   },
 
