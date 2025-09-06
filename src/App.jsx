@@ -4,6 +4,7 @@ import Tech from "./components/Tech"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import PopupButton from "./components/PopupButton"
+import FreelanceProjects from "./components/Freelance"
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <PopupButton/>
           <Tech/>
           <Projects/>
+          <FreelanceProjects/>
           <Contact/>
           
 
