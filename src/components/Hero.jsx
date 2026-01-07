@@ -36,9 +36,12 @@ const Hero = () => {
       className="flex max-w-[600px] flex-col items-center justify-center gap-2 text-center">
         <h1 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-light  md:text-5xl -z-10">Ismail HANSAL</h1>
 
-        <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent opacity-80 text-xl font-light  md:text-2xl -z-10"> FullStack Developer       </h3>
+        <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent opacity-80 text-xl font-light  md:text-2xl -z-10"> Software Engineer · Full-Stack & AI   </h3>
 
-        <p className="text-wrap text-sm font-light text-gray-400 md:text-base">I’m a Fullstack Developer with expertise in building end-to-end web applications. Skilled in Java, Spring Boot, React, Python, Django, and various databases including MongoDB, MySQL, PostgreSQL, and SQLite, I create seamless user interfaces and handle backend logic, ensuring high performance, scalability, and robustness.</p>
+        <p className="text-wrap text-sm font-light text-gray-400 md:text-base">Software Engineer specializing in full-stack web development and applied AI.
+  I build scalable web applications using Java, Spring Boot, React, and Python,
+  and integrate machine learning models and AI-powered features into real-world products.
+  Experienced with REST APIs, databases, and end-to-end system design.</p>
 
 
 

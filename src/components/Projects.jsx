@@ -186,7 +186,7 @@ const Projects = () => {
 
       <ScrollReveal>
 
-      <h1 className="text-4xl font-light text-white md:text-6xl">My Projects</h1>
+      <h1 className="text-4xl font-light text-white md:text-6xl">Featured Projects</h1>
 
       </ScrollReveal>
 
